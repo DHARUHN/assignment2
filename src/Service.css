@@ -1,0 +1,23 @@
+.service
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-item
+{
+    background-color: rgb(5, 138, 255);
+    padding: 10px;
+}
+.image
+{
+    background-color: aliceblue;
+    height:3rem;
+    width: 5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
